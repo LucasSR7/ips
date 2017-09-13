@@ -1,0 +1,20 @@
+{
+  "name": "projeto",
+  "homepage": "https://github.com/LucasSR7/ips",
+  "authors": [
+    "Lucas <luccas_reiis@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
