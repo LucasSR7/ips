@@ -1,28 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+<?php
+  require_once('includes/header.php');
+?>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <div class="container">
+      <div class="content">
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/pessoa-ma-min.jpg" alt="Você é uma pessoa má?">
+            <div class="caption">
+              <h3 style="color: red">Você é uma pessoa má?</h3>
+              <p>09/02/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/60999-mulher-magnetica-conheca-o-poder-dessa-postura-1000x641-min.png" alt="Você sofre de ansiedade?">
+            <div class="caption">
+              <h3>Você sofre de ansiedade?</h3>
+              <p>14/02/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/screen-shot-2015-09-28-at-9-06-09-pm-min-min.png" alt="Qual vilão de filme de terror você é?">
+            <div class="caption">
+              <h3>Qual vilão de filme de terror você é?</h3>
+              <p>17/02/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/olho-a-olho-min.png" alt="O que a cor dos seus olhos diz sobre você?">
+            <div class="caption">
+              <h3>O que a cor dos seus olhos diz sobre você?</h3>
+              <p>25/02/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/autoestima-min.png" alt="Você Tem Autoestima Alta ou Baixa?">
+            <div class="caption">
+              <h3 style="color: red;">Você Tem Autoestima Alta ou Baixa?</h3>
+              <p>27/02/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/581126f30a07b5-min.png" alt="Você sabe controlar bem a sua raiva?">
+            <div class="caption">
+              <h3>Você sabe controlar bem a sua raiva?</h3>
+              <p>02/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/mulher-min.png" alt="Que Tipo de Mulher Você É?">
+            <div class="caption">
+              <h3 style="color: red;">Que Tipo de Mulher Você É?</h3>
+              <p>06/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/57abd0968ad5f9-min.png" alt="O Que Te Torna Atraente?">
+            <div class="caption">
+              <h3 style="color: red;">O Que Te Torna Atraente?</h3>
+              <p>10/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/171237-wagner-moura-e-mais-um-representando-fam-950x0-1-min.png" alt="Quais são as chances de você ficar famoso?">
+            <div class="caption">
+              <h3>Quais são as chances de você ficar famoso?</h3>
+              <p>15/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/realizacao-pessoal-1-759x417-min.png" alt="Seus hábitos são os de uma pessoa feliz?">
+            <div class="caption">
+              <h3>Seus hábitos são os de uma pessoa feliz?</h3>
+              <p>15/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="block-tests">
+          <div class="thumbnail">
+            <img src="http://localhost/projeto/assets/images/como-ser-mais-simpatica-min.png" alt="Você é Simpático(a)?">
+            <div class="caption">
+              <h3>Você é Simpático(a)?</h3>
+              <p>15/03/2016</p>
+              <p><a href="#" class="btn" role="button">Comece</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<?php
+  require_once('includes/footer.php');
+?>
