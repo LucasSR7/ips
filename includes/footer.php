@@ -8,7 +8,7 @@
 	</div>
 	<footer class="container-fluid">
 		<div class="container">
-			<center><a href="#"><img class="img-responsive" src="http://localhost/projeto/assets/images/Logo-min.png" width="40"></a></center>
+			<center><a href="#"><img class="img-responsive" src="http://fastservices.16mb.com/assets/images/Logo-min.png" width="40"></a></center>
 		</div>
 		<div class="links">
 			<ul>
@@ -43,5 +43,7 @@
 	
 <script src="http://localhost/projeto/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="http://localhost/projeto/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="http://localhost/projeto/assets/js/main.js"></script>
+<script src="http://localhost/projeto/assets/js/main2.js"></script>
 </body>
 </html>

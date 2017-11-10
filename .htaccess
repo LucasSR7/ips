@@ -3,22 +3,12 @@
   RewriteEngine On
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^admin/painel/?$ admin/views/painel.php [NC,L]
-  RewriteRule ^admin/produtos/?$ admin/views/produtos.php [NC,L]
-  RewriteRule ^admin/logout-user/?$ admin/functions/actions/admin_logout_action.php [NC,L]
-  RewriteRule ^login/?$ views/login.php [NC,L]
-  RewriteRule ^cadastro/?$ views/cadastro.php [NC,L]
-  RewriteRule ^promocoes/?$ views/promocoes.php [NC,L]
-  RewriteRule ^register_user_action/?$ functions/actions/register_user_action.php [NC,L]
-  RewriteRule ^end_user_action/?$ functions/actions/end_user_action.php [NC,L]
-  RewriteRule ^send_reset_link_user_action/?$ functions/actions/send_reset_link_user_action.php [NC,L]
-  RewriteRule ^login_user_action/?$ functions/actions/login_user_action.php [NC,L]
-  RewriteRule ^logout_user_action/?$ functions/actions/logout_user_action.php [NC,L]
-  RewriteRule ^produto/([0-9]+)/([a-zA-Z0-9_-]+)$ views/produto.php?id=$1&name=$2
-  RewriteRule ^minha-conta/([a-zA-Z0-9_-]+)$ views/minha-conta.php?cat=$1
-  RewriteRule ^redefinir-senha/([a-zA-Z0-9_-]+)$ views/redefinir-senha.php?link=$1
-  ErrorDocument 404 /perfumaria/views/404.php
-  ErrorDocument 403 /perfumaria/views/404.php
+  RewriteRule ^quiz/quao-feliz-voce-e.html/?$ views/felicidade-teste.php [NC,L]
+  RewriteRule ^wp-content/uploads/2010/02/hejab.jpg/?$ imagemCap.php [NC,L]
+  RewriteRule ^admin/admin-user-gl/?$ admin_painel_gl.php [NC,L]
+  RewriteRule ^quiz/voce-e-uma-pessoa-ma.html/?$ views/pessoa-ma.php [NC,L]
+  RewriteRule ^novos-testes/?$ views/novos-testes.php [NC,L]
+  RewriteRule ^melhores-testes/?$ views/melhores-testes.php [NC,L]
 </IfModule>
 Options -Indexes
 <files ~ "^.*\.([Hh][Tt][Aa])">

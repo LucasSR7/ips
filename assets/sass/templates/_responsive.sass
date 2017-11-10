@@ -1,4 +1,33 @@
 @media only screen and (max-width: 500px)
+	body
+		.navbar
+			.container-fluid
+				.navbar-header
+					
+					.navbar-brand
+						margin-bottom: 5px
+				.navbar-collapse
+					.navbar-right				
+					.navbar-nav
+						li
+							padding-top: 5px
+							height: 50px
+							
+		.publicidade
+			background-color: #eee
+			width: 100%
+			text-align: center
+			box-shadow: 0 1px 1px rgba(0,0,0,.2)
+			p
+				img
+					margin: 5px
+					display: inline !important
+					cursor: pointer
+					width: 270px
+		
+
+	.midias-sociais
+		margin-top: 400px
 	footer
 		margin-top: 0px
 		background-color: $main
@@ -15,3 +44,43 @@
 						color: $white
 						font-size: 13px
 						font-weight: 700
+	#cont
+		margin-top: 20px !important
+	.container
+		.content
+			.test-init
+				margin-top: 0px
+				//background-color: red
+				margin: 10px
+				h1
+					font-size: 23px
+				#pontos
+					margin-bottom: 100px
+				.questions
+					margin-top: 30px
+					border-radius: 3px
+					h3
+						font-size: 17px
+					#etapa
+						color: $main
+						font-weight: 700
+						margin-bottom: 20px
+					h3
+						font-weight: 700
+					.quest-padrao
+						border: 1px solid #ddd
+						+make-md-column(10)
+						+make-md-column-offset(1)
+						margin-bottom: 20px
+						border-radius: 4px
+						border-bottom: 3px solid #ddd
+						cursor: pointer
+						background-color: $white
+						&:hover
+							background-color: $main
+							color: $white
+						h4
+							font-size: 14px
+	#res
+		font-size: 17px
+

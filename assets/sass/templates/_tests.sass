@@ -1,0 +1,43 @@
+.container
+	.content
+		.test-init
+			height: auto
+			margin: 10px
+			h1
+				margin-top: 0px
+			#pontos
+				margin-bottom: 150px
+			#facebook
+				background-color: #3b579d
+				border: none
+				color: $white
+			#twitter
+				border: none
+				background-color: #36b6bb
+				color: $white
+			#google
+				border: none
+				background-color: #d34836
+				color: $white
+			.questions
+				background-color: rgba(0,0,0,.03);
+				border: 1px solid #ddd
+				border-radius: 3px
+				#etapa
+					color: $main
+					font-weight: 700
+					margin-bottom: 20px
+				h3
+					font-weight: 700
+				.quest-padrao
+					border: 1px solid #ddd
+					+make-md-column(10)
+					+make-md-column-offset(1)
+					margin-bottom: 20px
+					border-radius: 4px
+					border-bottom: 3px solid #ddd
+					cursor: pointer
+					background-color: $white
+					&:hover
+						background-color: $main
+						color: $white

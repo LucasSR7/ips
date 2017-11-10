@@ -6,6 +6,16 @@ body
 		box-shadow: 0 1px 1px rgba(0,0,0,.2)
 		margin-bottom: 0px
 		.container-fluid
+			.navbar-header
+				.navbar-toggle
+					border: none
+					margin-top: 14px
+					&:hover
+						background-color: $main
+					&:focus
+						background-color: $main
+					.icon-bar 
+						background-color: $white
 			.navbar-collapse
 				.navbar-right
 					form
@@ -36,4 +46,3 @@ body
 				margin: 5px
 				display: inline !important
 				cursor: pointer
-		
